@@ -1,5 +1,11 @@
 platform: linux
-image: "docker:///node#4.2.3"
+
+image_resource:
+  type: docker-image
+  source:
+    repository: node
+    tag: 4.8
+
 inputs:
   - name: sources
     path: .

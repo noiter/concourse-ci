@@ -2,7 +2,7 @@ resources:
   - name: sources
     type: git
     source:
-      uri: https://github.com/noiter/concourse-cli.git
+      uri: https://github.com/noiter/concourse-ci.git
       branch: master
 
 jobs:

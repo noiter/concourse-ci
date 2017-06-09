@@ -9,4 +9,9 @@ Vagrant.configure(2) do |config|
     vb.memory = "2048"
   end
 
+  config.vm.provision "shell", inline: <<-SHELL
+    sudo apt-get update
+    sudo apt-get install -y git
+    git config --global user.name "noiter"
+  SHELL
 end

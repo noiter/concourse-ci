@@ -14,8 +14,8 @@ Try Concourse CI with Vagrant
 
 ### Create or update the `pipeline` on `local` target
 
-`$ fly -t lite set-pipeline -p npm-concourse-ci -c pipeline/pipeline.yml`
+`$ fly -t lite set-pipeline -p node-concourse-ci -c pipeline/pipeline.yml`
 
 ### Destroy the `pipeline` on `local` target
 
-`$ fly -t lite destroy-pipeline --pipeline npm-concourse-ci`
+`$ fly -t lite destroy-pipeline --pipeline node-concourse-ci`
